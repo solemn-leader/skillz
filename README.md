@@ -8,8 +8,8 @@
 
 ## Как добавить навык в Claude Code
 
-Скопируй папку навыка в `~/.claude/skills/` (персонально) или `.claude/skills/` (в проекте) и перезапусти Claude Code — подхватится сам.
+Слинкуй папку навыка в `~/.claude/skills/` (персонально) или `.claude/skills/` (в проекте) и перезапусти Claude Code — подхватится сам. Симлинк удобнее копии: правки в репо сразу подтягиваются.
 
 ```bash
-cp -r stop-slop ~/.claude/skills/stop-slop
+ln -s "$PWD/stop-slop" ~/.claude/skills/stop-slop
 ```
