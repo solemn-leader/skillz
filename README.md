@@ -5,6 +5,7 @@
 ## Навыки
 
 - [`stop-slop/`](stop-slop/) — удаление признаков ИИ из прозы (русская адаптация [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)).
+- [`humanizer/`](humanizer/) — переписывает англоязычный текст, убирая 33 паттерна ИИ-письма (зеркало [blader/humanizer](https://github.com/blader/humanizer)).
 
 ## Как добавить навык в Claude Code
 
