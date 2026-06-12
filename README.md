@@ -13,3 +13,11 @@
 ```bash
 ln -s "$PWD/stop-slop" ~/.claude/skills/stop-slop
 ```
+
+## Как добавить навык в Codex
+
+Тот же `SKILL.md`, только папка другая — `~/.agents/skills/` (персонально) или `.agents/skills/` в проекте.
+
+```bash
+ln -s "$PWD/stop-slop" ~/.agents/skills/stop-slop
+```
