@@ -24,12 +24,6 @@
 
 Слинкуй папку навыка в `~/.claude/skills/` (персонально) или `.claude/skills/` (в проекте) и перезапусти Claude Code — подхватится сам. Симлинк удобнее копии: правки в репо сразу подтягиваются.
 
-Один навык:
-
-```bash
-ln -s "$PWD/stop-slop" ~/.claude/skills/stop-slop
-```
-
 Все сразу (запускать из корня репозитория):
 
 ```bash
@@ -47,12 +41,6 @@ ln -sfn "$PWD/yandex-metrica"   ~/.claude/skills/yandex-metrica
 `-sfn` пересоздаёт ссылку, если она уже есть, и не лезет внутрь существующего симлинка-папки.
 
 ## Как добавить навык в Codex
-
-Тот же `SKILL.md`, только папка другая — `~/.agents/skills/` (персонально) или `.agents/skills/` в проекте.
-
-```bash
-ln -s "$PWD/stop-slop" ~/.agents/skills/stop-slop
-```
 
 Все сразу:
 
